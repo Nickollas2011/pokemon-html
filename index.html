@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nickollas Pokedex</title>
 </head>
+
 <body>
 
     <h1> <!-- TITULO-2 -->
@@ -14,243 +16,290 @@
         <span class="water-text">Pokemon</span>
     </h1>
 
-   <div class="box-pokemon">
-    <div class="card-container"> <!-- POKEMON-1 Bulbasaur -->
-        <div class="header">   <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0001</span>
-            </div>
-        </div>
-        <img src="./image/Bulbasaur.png" alt="">  <!-- Area da imagem -->
-        <div class="box-types"> <!-- Area dos tipos -->
-            <div class="types grass">  <span>Grass</span> </div>
-            <div class="types poison">  <span>Poison</span> </div>
-        </div>
-        <a href="/detalhes/bulbasaur.html"> 
-            <div class="box-name grass"> <!-- Area do nome -->
-                <h2 class="name ">Bulbasaur</h2>
+    <div class="box-pokemon">
+
+        <a href="/detalhes/bulbasaur.html">
+            <div class="card-container"> <!-- POKEMON-1 Bulbasaur -->
+                
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0001</span>
+                    </div>
+                </div>
+                
+                <img src="./image/Bulbasaur.png" alt=""> <!-- Area da imagem -->
+                
+                <div class="box-types"> <!-- Area dos tipos -->
+                    <div class="types grass"> <span>Grass</span> </div>
+                    <div class="types poison"> <span>Poison</span> </div>
+                </div>
+                
+                <div class="box-name grass"> <!-- Area do nome -->
+                    <h2 class="name ">Bulbasaur</h2>
+                </div>
             </div>
         </a>
-    </div>
 
-    <div class="card-container"> <!-- POKEMON-2 Ivysaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0002</span>
-            </div>
-        </div>
-        <img src="./image/Ivysaur.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types grass">  <span>Grass</span> </div>
-            <div class="types poison">  <span>Poison</span> </div>
-        </div>
         <a href="/detalhes/Ivysaur.html">
-        <div class="box-name grass"> <!-- Area do nome -->
-            <h2 class="name ">Ivysaur</h2>
-        </div>
-    </a>
-    </div>
+            <div class="card-container"> <!-- POKEMON-2 Ivysaur -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0002</span>
+                    </div>
+                </div>
+                <img id="ajuste-ivysaur" src="./image/Ivysaur.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types grass"> <span>Grass</span> </div>
+                    <div class="types poison"> <span>Poison</span> </div>
+                </div>
+                <a href="/detalhes/Ivysaur.html">
+                    <div class="box-name grass"> <!-- Area do nome -->
+                        <h2 class="name ">Ivysaur</h2>
+                    </div>
+                </a>
+            </div>
+        </a>
 
-    <div class="card-container"> <!-- POKEMON-3 Venusaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0003</span>
-            </div>
-        </div>
-        <img src="./image/Venusaur.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types grass">  <span>Grass</span> </div>
-            <div class="types poison">  <span>Poison</span> </div>
-        </div>
-        <div class="box-name grass"> <!-- Area do nome -->
-            <h2 class="name ">Venusaur</h2>
-        </div>
-    </div>
+        <style>
+            #ajuste-ivysaur{ margin-left: 25px; }
+        </style>
 
-    <div class="card-container"> <!-- POKEMON-4 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0004</span>
+        <a href="/detalhes/Venusaur.html">
+            <div class="card-container"> <!-- POKEMON-3 Venusaur -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0003</span>
+                    </div>
+                </div>
+                <img src="./image/Venusaur.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types grass"> <span>Grass</span> </div>
+                    <div class="types poison"> <span>Poison</span> </div>
+                </div>
+                <div class="box-name grass"> <!-- Area do nome -->
+                    <h2 class="name ">Venusaur</h2>
+                </div>
             </div>
-        </div>
-        <img src="./image/Charmander.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types fire">  <span>Fire</span> </div>
-            
-        </div>
-        <div class="box-name fire"> <!-- Area do nome -->
-            <h2 class="name ">Charmander</h2>
-        </div>
-    </div>
+        </a>
 
-    <div class="card-container"> <!-- POKEMON-5 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0005</span>
-            </div>
-        </div>
-        <img src="./image/Charmeleon.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types fire">  <span>Fire</span> </div>
-            
-        </div>
-        <div class="box-name fire"> <!-- Area do nome -->
-            <h2 class="name ">Charmeleon</h2>
-        </div>
-    </div>
+        <a href="/detalhes/Charmander.html">
+            <div class="card-container"> <!-- POKEMON-4 Charmander -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0004</span>
+                    </div>
+                </div>
+                <img src="./image/Charmander.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types fire"> <span>Fire</span> </div>
 
-    <div class="card-container"> <!-- POKEMON-6 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0006</span>
+                </div>
+                <div class="box-name fire"> <!-- Area do nome -->
+                    <h2 class="name ">Charmander</h2>
+                </div>
             </div>
-        </div>
-        <img src="./image/Charizard.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types fire">  <span>Fire</span> </div>
-            <div class="types flying">  <span>Flying</span> </div>
-        </div>
-        <div class="box-name fire"> <!-- Area do nome -->
-            <h2 class="name ">Charizard</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-7 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0007</span>
-            </div>
-        </div>
-        <img src="./image/Squirtle.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types water">  <span>Water</span> </div>
-        
-        </div>
-        <div class="box-name water"> <!-- Area do nome -->
-            <h2 class="name ">Squirtle</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-8 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0008</span>
-            </div>
-        </div>
-        <img src="./image/Wartortle.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types water">  <span>Water</span> </div>
-        
-        </div>
-        <div class="box-name water"> <!-- Area do nome -->
-            <h2 class="name ">Wartortle</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-9 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0009</span>
-            </div>
-        </div>
-        <img src="./image/Blaistose.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types water">  <span>Water</span> </div>
-        
-        </div>
-        <div class="box-name water"> <!-- Area do nome -->
-            <h2 class="name ">Squirtle</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-10 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0010</span>
-            </div>
-        </div>
-        <img src="./image/Caterpie.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types bug">  <span>Bug</span> </div>
-        </div>
-        <div class="box-name bug"> <!-- Area do nome -->
-            <h2 class="name ">Caterpie</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-11 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0011</span>
-            </div>
-        </div>
-        <img src="./image/Metapod.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types bug">  <span>Bug</span> </div>
-        </div>
-        <div class="box-name bug"> <!-- Area do nome -->
-            <h2 class="name ">Metapod</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-12 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0012</span>
-            </div>
-        </div>
-        <img src="./image/Butterfree.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types bug">  <span>Bug</span> </div>
-            <div class="types flying">  <span>flying</span> </div>
-        </div>
-        <div class="box-name bug"> <!-- Area do nome -->
-            <h2 class="name ">Butterfree</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-13 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0013</span>
-            </div>
-        </div>
-        <img src="./image/Weedle.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types bug">  <span>Bug</span> </div>
-            <div class="types poison">  <span>Poison</span> </div>
-        </div>
-        <div class="box-name poison"> <!-- Area do nome -->
-            <h2 class="name ">Weedle</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-15 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0015</span>
-            </div>
-        </div>
-        <img src="./image/Kakuna.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types bug">  <span>Bug</span> </div>
-            <div class="types poison">  <span>Poison</span> </div>
-        </div>
-        <div class="box-name poison"> <!-- Area do nome -->
-            <h2 class="name ">Kakuna</h2>
-        </div>
-    </div>
-    <div class="card-container"> <!-- POKEMON-14 Bulbasaur -->
-        <div class="header"> <!-- Area do código -->
-            <div class="card-codigo"> 
-                <span>#0016</span>
-            </div>
-        </div>
-        <img src="./image/Beedril.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
-        <div class="box-types"><!-- Area dos tipos -->
-            <div class="types bug">  <span>Bug</span> </div>
-            <div class="types poison">  <span>Poison</span> </div>
-        </div>
-        <div class="box-name poison"> <!-- Area do nome -->
-            <h2 class="name ">Beedril</h2>
-        </div>
-    </div>
+        </a>
 
-    
+        <a href="/detalhes/Charmeleon.html">
+            <div class="card-container"> <!-- POKEMON-5 Charmeleon -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0005</span>
+                    </div>
+                </div>
+                <img src="./image/Charmeleon.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types fire"> <span>Fire</span> </div>
 
-   </div> <!---Final-->
+                </div>
+                <div class="box-name fire"> <!-- Area do nome -->
+                    <h2 class="name ">Charmeleon</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Charizard.html">
+            <div class="card-container"> <!-- POKEMON-6 Charizard -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0006</span>
+                    </div>
+                </div>
+                <img src="./image/Charizard.png" alt="Pokémon Ivysaur"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types fire"> <span>Fire</span> </div>
+                    <div class="types flying"> <span>Flying</span> </div>
+                </div>
+                <div class="box-name fire"> <!-- Area do nome -->
+                    <h2 class="name ">Charizard</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Squirtle.html">
+            <div class="card-container"> <!-- POKEMON-7 Squirtle -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0007</span>
+                    </div>
+                </div>
+                <img src="./image/Squirtle.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types water"> <span>Water</span> </div>
+
+                </div>
+                <div class="box-name water"> <!-- Area do nome -->
+                    <h2 class="name ">Squirtle</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Wartortle.html">
+            <div class="card-container"> <!-- POKEMON-8 Wartortle -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0008</span>
+                    </div>
+                </div>
+                <img src="./image/Wartortle.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types water"> <span>Water</span> </div>
+
+                </div>
+                <div class="box-name water"> <!-- Area do nome -->
+                    <h2 class="name ">Wartortle</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Blastoise.html">
+            <div class="card-container"> <!-- POKEMON-9 Blaistoise -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0009</span>
+                    </div>
+                </div>
+                <img src="./image/Blaistose.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types water"> <span>Water</span> </div>
+
+                </div>
+                <div class="box-name water"> <!-- Area do nome -->
+                    <h2 class="name ">Squirtle</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Caterpie.html">
+            <div class="card-container"> <!-- POKEMON-10 Caterpie -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0010</span>
+                    </div>
+                </div>
+                <img src="./image/Caterpie.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types bug"> <span>Bug</span> </div>
+                </div>
+                <div class="box-name bug"> <!-- Area do nome -->
+                    <h2 class="name ">Caterpie</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Metapod.html">
+            <div class="card-container"> <!-- POKEMON-11 Metapod -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0011</span>
+                    </div>
+                </div>
+                <img src="./image/Metapod.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types bug"> <span>Bug</span> </div>
+                </div>
+                <div class="box-name bug"> <!-- Area do nome -->
+                    <h2 class="name ">Metapod</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Butterfree.html">
+            <div class="card-container"> <!-- POKEMON-12 Butterfree -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0012</span>
+                    </div>
+                </div>
+                <img src="./image/Butterfree.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types bug"> <span>Bug</span> </div>
+                    <div class="types flying"> <span>flying</span> </div>
+                </div>
+                <div class="box-name bug"> <!-- Area do nome -->
+                    <h2 class="name ">Butterfree</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Weedle.html">
+            <div class="card-container"> <!-- POKEMON-13 Weedle -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0013</span>
+                    </div>
+                </div>
+                <img src="./image/Weedle.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types bug"> <span>Bug</span> </div>
+                    <div class="types poison"> <span>Poison</span> </div>
+                </div>
+                <div class="box-name poison"> <!-- Area do nome -->
+                    <h2 class="name ">Weedle</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Kakuna.html">
+            <div class="card-container"> <!-- POKEMON-14 Kakuna -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0015</span>
+                    </div>
+                </div>
+                <img src="./image/Kakuna.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types bug"> <span>Bug</span> </div>
+                    <div class="types poison"> <span>Poison</span> </div>
+                </div>
+                <div class="box-name poison"> <!-- Area do nome -->
+                    <h2 class="name ">Kakuna</h2>
+                </div>
+            </div>
+        </a>
+
+        <a href="/detalhes/Beedril.html">
+            <div class="card-container"> <!-- POKEMON-15 Beedril -->
+                <div class="header"> <!-- Area do código -->
+                    <div class="card-codigo">
+                        <span>#0016</span>
+                    </div>
+                </div>
+                <img src="./image/Beedril.png" alt="Pokémon Squirtle"> <!-- Area da imagem -->
+                <div class="box-types"><!-- Area dos tipos -->
+                    <div class="types bug"> <span>Bug</span> </div>
+                    <div class="types poison"> <span>Poison</span> </div>
+                </div>
+                <div class="box-name poison"> <!-- Area do nome -->
+                    <h2 class="name ">Beedril</h2>
+                </div>
+            </div>
+        </a>
+
+
+
+    </div> <!---Final-->
 
 </body>
+
 </html>

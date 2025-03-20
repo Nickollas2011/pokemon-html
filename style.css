@@ -48,12 +48,48 @@
     background-color: #6ec300;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.card-container {
+    /* card que contem um unico card */
+    width: 361px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+
+}
+
+.header {
+    width: 361px;
+    display: flex;
+    justify-content: end;
+}
+
+
+.box-pokemon {
+    /* Cofiguração do box que tem todos os pokemons */
+    gap: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 img {
@@ -65,31 +101,6 @@ img:hover {
     /* efeitos da imagem */
     cursor: pointer;
     transform: scale(1.5) rotate(12deg);
-}
-
-.box-pokemon {
-    /* Cofiguração do box que tem todos os pokemons */
-    gap: 20px;
-    display: flex;
-
-    flex-wrap: wrap;
-}
-
-.card-container {
-    /* card que contem um unico card */
-    width: 361px;
-
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    background-color: #fff;
-
-}
-
-.header {
-    width: 361px;
-    display: flex;
-    justify-content: end;
 }
 
 .card-codigo {
@@ -129,6 +140,7 @@ img:hover {
 
 .box-name {
     width: 361px;
+    height: 50px;
     color: #fff;
     display: flex;
     align-items: center;
