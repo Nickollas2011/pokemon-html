@@ -48,6 +48,10 @@
     background-color: #6ec300;
 }
 
+.dragon { background-color: #1a29ff;}
+
+.charizard-y { background-color: #ffa63a;}
+
 *{
     margin: 0;
     padding: 0;
@@ -74,6 +78,14 @@ body {
     flex-direction: column;
     background-color: white;
 
+    border-top-left-radius: 30px;
+
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .header {
