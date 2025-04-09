@@ -1,6 +1,7 @@
-git config --global user.name "Nickollas Botelho"
-git config --global user.email a18859@aeddinis-quarteira.pt
 
+### Telas criadas
+
+<img src="./screens/card-pokemon-grafico.png" alt="">
 
 #### Lembrar para atualizar
 
@@ -11,4 +12,4 @@ git add .
 git commit -m updated
 
 * 3. salvar
-git push
+git push    
