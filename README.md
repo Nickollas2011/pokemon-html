@@ -1,6 +1,7 @@
 
 ### Telas criadas
 
+<img src="./screens/home.png" alt="">
 <img src="./screens/card-pokemon-grafico.png" alt="">
 
 #### Lembrar para atualizar
