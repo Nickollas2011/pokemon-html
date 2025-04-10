@@ -13,7 +13,7 @@
         </a>
     </div>
 
-    <div>
+    <div id="selecionado">
         <a href="/">
             <img src="../../image/Charizard-Y.png" />
             <h3 class="titulo">Página 02</h3>
@@ -28,6 +28,9 @@
     </div>
 
     <style>
+        #selecionado{
+            transform: scale(1.5);
+        }
         body{
             gap: 50px;
             height: 100vh;
@@ -62,6 +65,19 @@
         .titulo{
             color: white;
             font-family: 5rem;
+        }
+
+        @media screen and (max-width: 700px){
+            #selecionado{
+                transform: scale(1);
+            }
+            body{
+            gap: 10px;
+            height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+        }
         }
     </style>
 </body>
