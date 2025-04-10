@@ -10,8 +10,10 @@
     <div class="card">
         <h1>Pokemon Stats</h1>
         <h3>Main Stats</h3>
-        <img width="250" src="./grafico.png" />
-        
+        <div class="card-img">
+            <img id="img-pkm" width="100" src="../../../image/Blaistose.png" />
+            <img width="250" src="../grafico.png" />
+        </div>
         <div class="card-row">
             <div class="card-box-icon">
                 <div class="box-icon">
@@ -30,21 +32,27 @@
             </div>
             <p>30%</p>
         </div>
-        <div class="card-row">
-            <div class="card-box-icon">
-            <div class="box-icon">
-                <i class="bi bi-magic"></i>
-            </div>
-                <span>Spt. Ataque</span>
-            </div>
-            <p>10%</p>
-        </div>
-    </div>
 
+    </div>
+    <div class="details">
+        <h1>Detalhes</h1>
+    </div>   
     <style>
+        .details h1{
+            color: white;
+        }
+        .card-img{
+            position: relative;
+        }
+        #img-pkm{
+            top: 80px;
+            left: 70px;
+            position: absolute;
+        }
         body{
             background-color: black;
             display: flex;
+            flex-wrap: wrap;
             overflow: hidden;
         }
         .box-icon{

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+</head>
+<body>
+    <div>
+        <a href="/">
+            <img src="../../image/Charizard-X.png" />
+            <h3 class="titulo">Página 01</h3>
+        </a>
+    </div>
+
+    <div>
+        <a href="/">
+            <img src="../../image/Charizard-Y.png" />
+            <h3 class="titulo">Página 02</h3>
+        </a>
+    </div>
+
+    <div>
+        <a href="/">
+            <img src="../../image/Beedril.png" />
+            <h3 class="titulo">Página 02</h3>
+        </a>
+    </div>
+
+    <style>
+        body{
+            gap: 50px;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+
+            /* mundar a cor de fundo */
+            background-color: #1d081d;
+        }
+        div{
+            width: 250px;
+            border-radius: 20px;
+            transition: .3s;
+
+            /* mundar a cor de botão */
+            background-color: #752174;
+        }
+        div:hover{
+            transform: scale(1.2);
+        }
+        div img{
+            width: 200px;
+        }
+        div a{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .titulo{
+            color: white;
+            font-family: 5rem;
+        }
+    </style>
+</body>
+</html>
